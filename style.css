@@ -69,3 +69,17 @@ body {
 #info .work {
     color: #f46842;
 }
+
+.profile {
+    margin: 80px auto auto auto;
+    padding: 0
+}
+
+.profile img {
+    margin: auto auto auto auto;
+    display: block;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 15px solid rgba(39, 127, 120, .5)
+}
