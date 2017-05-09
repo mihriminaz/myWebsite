@@ -61,3 +61,11 @@ body {
     width: 100%;
     max-width: 500px;/*comment out and add*/
 }
+
+#info .about {
+    color: #59beb6;
+}
+
+#info .work {
+    color: #f46842;
+}
