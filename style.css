@@ -1,53 +1,38 @@
 body {
+    position: relative;
+    overflow: hidden;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif /*comment out Arial, Helvetica, sans-serif*/
     background-color: lightblue;
-    background-color: #cccccc;
 }
 
-#backgroundImage {
-    background: url("images/cat.png") no-repeat;
-    background-size:contain;
+.links {
+    top: 20px;
+    height: 44px;
 }
 
-/*#backgroundImage2 {*/
-/*background: url("images/cat.png") repeat;*/
-/*background-size:contain;*/
-/*}*/
-
-/*#backgroundImage3 {*/
-/*background: url("images/cat.png") repeat-x;*/
-/*background-size:contain;*/
-/*}*/
-
-/*#backgroundImage4 {*/
-/*background: url("images/cat.png") no-repeat;*/
-/*background-size: 100% 100%;*/
-/*}*/
-
-/*#backgroundImage5 {*/
-/*background: url("images/cat.png") no-repeat;*/
-/*background-size: cover;*/
-/*}*/
-
-
-h1 {
-    color: white;
-    text-align: center;
+.links .about {
+    background-image: url(images/about.png);
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
+.links .portfolio {
+    background-image: url(images/portfolio.png);
 }
-p.dotted {border-style: dotted;
-    border-bottom: 6px solid red;
-    background-color: lightgrey;}
-p.dashed {border-style: dashed;}
-p.solid {border-style: solid;}
-p.double {border-style: double;}
-p.groove {border-style: groove;}
-p.ridge {border-style: ridge;}
-p.inset {border-style: inset;}
-p.outset {border-style: outset;}
-p.none {border-style: none;}
-p.hidden {border-style: hidden;}
-p.mix {border-style: dotted dashed solid double;}
+
+.links button {
+    background-color: #409c95;
+    border-radius: 50%;/*comment out and add*/
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    opacity: .5
+}
+
+.info {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;/*comment out and add*/
+    background-color: #979797;
+}
