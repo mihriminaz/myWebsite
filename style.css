@@ -29,6 +29,9 @@ body {
     margin-left: 10px;
     opacity: .5
 }
+.links button:hover {
+    opacity: 1
+}
 
 .info {
     margin-top: 20px;
