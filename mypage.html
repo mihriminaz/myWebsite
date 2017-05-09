@@ -7,26 +7,31 @@
 </head>
 <body>
 <div id="page">
-<div class="links">
-    <button class="about" onclick="showItem('aboutId')"></button>
-    <button class="portfolio" onclick="showItem('workId')"></button>
-</div>
 
-<div class="info">
-    <div class="about" id="aboutId">
-        <h1>ABOUT</h1>
-        Here comes some information about me. Here comes some information about me. Here comes some information about me. Here comes some information about me. Here comes some information about me. Here comes some information about me.
+    <div id="half">
+        <div class="links">
+            <button class="about" id="aboutButton" onclick="showItem('aboutId')"></button>
+            <button class="portfolio" id="portfolioButton"  onclick="showItem('workId')"></button>
+        </div>
     </div>
-    <div class="work" id="workId" style="display: none">
-        <h1>WORKS</h1>
-        <p>Here comes some works I have completed before:</p>
-        <ol class="work-item">
-            <li>Project A</li>
-            <li>Project B</li>
-            <li>Project C</li>
-        </ol>
+
+    <div id="other-half">
+        <div id="info">
+            <div class="about" id="aboutId">
+                <h1>ABOUT</h1>
+                Here comes some information about me. Here comes some information about me. Here comes some information about me. Here comes some information about me. Here comes some information about me. Here comes some information about me.
+            </div>
+            <div class="work" id="workId" style="display: none">
+                <h1>WORKS</h1>
+                <p>Here comes some works I have completed before:</p>
+                <ol class="work-item">
+                    <li>Project A</li>
+                    <li>Project B</li>
+                    <li>Project C</li>
+                </ol>
+            </div>
+        </div>
     </div>
-</div>
 </div>
 </body>
 </html>

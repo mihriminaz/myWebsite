@@ -5,36 +5,59 @@ body {
     background-color: lightblue;
 }
 
+#half {
+    width: 50%;
+    left: 0px;
+    top: 0px;
+    background-color: #59beb6;
+    height: 100%;
+    position: fixed;
+    display: block
+}
+#other-half {
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    background-color: #EEEEEE;
+    height: 100%;
+    position: fixed;
+    display: block
+}
+
 .links {
-    top: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
     height: 44px;
 }
 
 .links .about {
     background-image: url(images/about.png);
+    background-color: #409c95;
 }
 
 .links .portfolio {
     background-image: url(images/portfolio.png);
+    background-color: #cc4210;
+    opacity: .5
 }
 
 .links button {
-    background-color: #409c95;
     border-radius: 50%;/*comment out and add*/
     background-repeat: no-repeat;
     width: 44px;
     height: 44px;
     display: block;
     float: left;
-    margin-left: 10px;
-    opacity: .5
+    margin-left: 10px
 }
 .links button:hover {
     opacity: 1
 }
 
-.info {
+#info {
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 100%;
     max-width: 500px;/*comment out and add*/
 }
