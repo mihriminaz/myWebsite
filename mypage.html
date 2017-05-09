@@ -3,20 +3,31 @@
 <head>
     <link href="style.css" rel="stylesheet">
     <title>Mihri Minaz.</title>
+    <script>
+    function showItem(item) {
+        document.getElementById(item).style.display = 'block';
+        if (item == 'aboutId') {
+            document.getElementById('workId').style.display = 'none';
+        }
+        else {
+            document.getElementById('aboutId').style.display = 'none';
+        }
+    }
+    </script>
 </head>
 <body>
 <div id="page">
 <div class="links">
-    <button class="about"></button>
-    <button class="portfolio"></button>
+    <button class="about" onclick="showItem('aboutId')"></button>
+    <button class="portfolio" onclick="showItem('workId')"></button>
 </div>
 
 <div class="info">
-    <div class="about">
+    <div class="about" id="aboutId">
         <h1>ABOUT</h1>
         Here comes some information about me. Here comes some information about me. Here comes some information about me. Here comes some information about me. Here comes some information about me. Here comes some information about me.
     </div>
-    <div class="work">
+    <div class="work" id="workId" style="display: none">
         <h1>WORKS</h1>
         <p>Here comes some works I have completed before:</p>
         <ol class="work-item">
