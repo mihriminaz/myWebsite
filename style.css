@@ -48,6 +48,13 @@ body {
     opacity: .5
 }
 
+.links .github {
+    background-image: url(images/github.png);
+    background-color: #443366;
+    background-position: 1px 1px;
+    opacity: .5
+}
+
 .links button, .links a {
     border-radius: 50%;/*comment out and add*/
     background-repeat: no-repeat;
